@@ -1,0 +1,20 @@
+#创建一个版本库非常简单，首先，选择一个合适的地方，创建一个空目录：
+$ mkdir learngit
+$ cd learngit			#如果你使用Windows系统，为了避免遇到各种莫名其妙的问题，请确保目录名（包括父目录）不包含中文。
+#通过git init命令把这个目录变成Git可以管理的仓库：
+$ git init
+#现在我们编写一个readme.txt文件:
+#第一步，用命令git add告诉Git，把文件添加到仓库：
+$ git add readme.txt
+#第二步，用命令git commit告诉Git，把文件提交到仓库：
+$ git commit -m "wrote a readme file" 	#简单解释一下git commit命令，-m后面输入的是本次提交的说明，可以输入任意内容，当然最好是有意义的，这样你就能从历史记录里方便地找到改动记录。
+
+
+
+初始化一个Git仓库，使用git init命令。
+
+添加文件到Git仓库，分两步：
+
+第一步，使用命令git add <file>，注意，可反复多次使用，添加多个文件；
+
+第二步，使用命令git commit，完成。
